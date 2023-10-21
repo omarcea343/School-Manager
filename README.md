@@ -18,16 +18,13 @@ Follow these steps to set up and run the School Manager App on your local develo
 
 1. Clone the repository:
 
-               ```bash
                git clone <repository-url>
                cd school-manager-app
-               ```
       
 2. Install Dependencies:
 
-            ```bash
-               npm install``
+               npm install
    
 3. Run the Development Server:
 
-            ``npm run dev``
+               npm run dev
