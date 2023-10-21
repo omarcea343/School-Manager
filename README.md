@@ -18,7 +18,7 @@ Follow these steps to set up and run the School Manager App on your local develo
 
 1. Clone the repository:
 
-        git clone <repository-url>
+        git clone [<repository-url>](https://github.com/omarcea343/school-manager)
 
         cd school-manager-app
       
