@@ -45,6 +45,9 @@ const Navbar = () => {
               >
                 Contact
               </Link>
+              <Link href="/" className={buttonVariants({size: "sm"})}>
+                Sign in
+              </Link>
             </>
           </div>
         </div>
