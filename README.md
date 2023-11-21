@@ -29,3 +29,19 @@ Follow these steps to set up and run the School Manager App on your local develo
 3. Run the Development Server:
 
         npm run dev
+
+## Run using Docker
+
+Make sure you have docker installed on your machine.
+
+1. Build Docker image:
+
+        sudo docker build -t school-manager:0.0.1 .
+
+      
+2. Run the container from the just created image, exposing the required port for development:
+
+        sudo docker run -p 127.0.0.1:3000:3000 school-manager:0.0.1
+
+
+3. Enter to http://localhost:3000/ and to see your containerized app running.
